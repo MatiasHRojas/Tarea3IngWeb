@@ -1,0 +1,27 @@
+<div id="imagen">
+    <img src="assets/inicio.png" alt="imagen de inicio">
+</div>
+
+<ul id="destacadas">
+    <li *ngFor="let destacada of destacadas">
+        <img src="../../../assets/{{destacada.img}}" alt="{{destacada.title}}">
+        <div>
+            <h2 class="texto-{{destacada.idCategoria}}">{{destacada.title}}</h2>
+            <p>{{destacada.abstract}}</p>
+            <button class="boton-{{destacada.idCategoria}}" [routerLink]="['/detalleNoticia', destacada.idCategoria]" routerLinkActive="router-link-active" >Leer Más</button>
+        </div>
+    </li>
+</ul>
+
+<ul id="normales">
+    <li *ngFor="let normal of normales">
+        <img src="../../../assets/{{normal.img}}" alt="{{normal.title}}">
+        <div>
+            <h2>{{normal.title}}</h2>
+            <p>{{normal.abstract}}</p>
+            <button [routerLink]="['/detalleNoticia', normal.id]" routerLinkActive="router-link-active" >Leer Más</button>
+        </div>
+    </li>
+</ul>
+
+<h3>Noticias - Valparaíso</h3>

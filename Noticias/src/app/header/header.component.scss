@@ -1,0 +1,23 @@
+nav{
+    background-color: rgb(49, 49, 59);
+}
+
+.nav-pills .nav-link.active,
+.show>.nav-pills .nav-link{
+    background: rgb(69, 69, 83);
+}
+
+.nav-pills .nav-link{
+    color: white !important;
+    border: solid 1px rgb(168, 168, 168);
+}
+
+ul{
+    align-items: center;
+    justify-content: center;
+}
+
+ul li{
+    margin: 5px;
+    margin-bottom: 15px;
+}

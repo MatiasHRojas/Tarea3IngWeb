@@ -1,0 +1,13 @@
+<nav>
+<ul ngbNav [(activeId)]="activeId" class="nav-pills">
+    <li [ngbNavItem]="1">
+      <a ngbNavLink [routerLink]="['/']" routerLinkActive="router-link-active">Inicio</a>
+    </li>
+    <li [ngbNavItem]="2">
+      <a ngbNavLink [routerLink]="['/noticias']" routerLinkActive="router-link-active">Noticias</a>
+    </li>
+    <li [ngbNavItem]="3">
+        <a ngbNavLink [routerLink]="['/servicio-al-cliente']" routerLinkActive="router-link-active">Servicio Al Cliente</a>
+      </li>
+</ul>
+</nav>

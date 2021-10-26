@@ -1,0 +1,156 @@
+#imagen{
+    text-align: center;
+}
+
+#imagen img{
+    max-width: 100%;
+    min-width: 60%;
+    height: auto;
+}
+
+ul{
+    list-style-type: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+/* ---------------------------------------- */
+
+#destacadas{
+    margin-top: 40px;
+}
+
+#destacadas li{
+    width: 400px;
+    margin: 20px;
+}
+
+#destacadas img{
+    width: 400px;
+    height: 240px;
+}
+
+#destacadas h2{
+    font-weight: bolder;
+    font-size: 23px;
+    text-align: left;
+    margin: 15px;
+}
+
+#destacadas div{
+    padding: 15px;
+    text-align: center;
+    background-color: rgb(238, 237, 236);
+}
+
+#destacadas p{
+    text-align: left;
+    margin: 20px;
+}
+
+#destacadas button{
+    border: none;
+    border-radius: 8px;
+    color: white;
+    width: 140px;
+    height: 50px;
+    font-size: 18px;
+    margin: 20px;
+}
+
+/* ---------------------------------------- */
+
+#normales li{
+    width: 290px;
+    margin: 20px;
+    background-color: rgb(238, 237, 236);
+    
+}
+
+#normales img{
+    width: 290px;
+    height: 290px;
+}
+
+#normales h2{
+    color:rgb(97, 97, 97);
+    font-weight: bolder;
+    font-size: 20px;
+    text-align: center;
+    margin: 15px;
+}
+
+#normales div{
+    text-align: center;
+}
+
+#normales p{
+    text-align: left;
+    margin: 20px;
+}
+
+#normales button{
+    background-color: white;
+    border: solid 2px rgb(179, 179, 179);
+    border-radius: 8px;
+    width: 140px;
+    height: 50px;
+    font-size: 18px;
+    margin: 20px;
+}
+
+/* ---------------------------------------- */
+
+h3{
+    margin-top: 100px;
+    margin-bottom: 30px;
+    text-align: center;
+    font-style: italic;
+    color: rgb(114, 114, 114);
+    font-size: 35px;
+}
+
+/* ---------------------------------------- */
+
+.texto-1{
+    color: rgb(41, 155, 41);
+}
+.boton-1{
+    background-color: rgb(41, 155, 41);
+}
+
+.texto-2{
+    color: rgb(41, 102, 200);
+}
+.boton-2{
+    background-color: rgb(41, 102, 200);
+}
+
+.texto-3{
+    color: rgb(155, 25, 25);
+}
+.boton-3{
+    background-color: rgb(155, 25, 25);
+}
+
+.texto-4{
+    color: rgb(226, 79, 226);
+}
+.boton-4{
+    background-color: rgb(226, 79, 226);
+}
+
+.texto-5{
+    color: rgb(24, 24, 126);
+}
+.boton-5{
+    background-color: rgb(24, 24, 126);
+}
+
+.texto-6{
+    color: rgb(238, 32, 17);
+}
+.boton-6{
+    background-color: rgb(238, 32, 17);
+}

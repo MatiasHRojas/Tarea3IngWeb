@@ -1,0 +1,64 @@
+.red{
+    color:red;
+}
+.darkred{
+    color:darkred;
+}
+.blue{
+    color:blue;
+}
+.darkblue{
+    color:darkblue;
+}
+.green{
+    color:green;
+}
+.violet{
+    color:violet;
+}
+
+#imagen{
+    background-color: rgb(233, 233, 233);
+    text-align: center;
+    height: auto;
+}
+
+#imagen img{
+    max-width: 100%;
+    height:auto;
+    max-height:550px;  
+}
+
+#info{
+    margin: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center
+}
+
+#info div{
+    width: 1000px;
+}
+
+h2{
+    font-size: 40px;
+    font-weight: bolder;
+}
+
+h5{
+    margin: 10px;
+    font-size: 25px;
+    font-weight: bolder;
+    font-style: italic;
+    color: rgb(136, 136, 136);
+}
+ 
+#autor{
+    font-size: 20px;
+    margin: 10px;
+}
+
+#contenido{
+    margin: 30px;
+    text-align: justify;
+}

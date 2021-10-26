@@ -1,0 +1,11 @@
+<div id="imagen">
+    <img src="assets/{{Noticia.img}}" alt="{{Noticia.title}}">
+</div>
+<div id="info">
+    <div>
+        <h2 [ngClass]="{blue: c=='blue', red: c=='red', green: c=='green', violet: c=='violet', darkred: c=='darkred', darkblue: c=='darkblue'}">{{Noticia.title}}</h2>
+        <h5>{{Categoria.nombre}}</h5>
+        <p id="autor"><strong>Autor: </strong>{{Noticia.author}}<br><strong>Fecha Publicación: </strong>{{Noticia.date}}</p>
+        <p id="contenido">{{Noticia.content}}</p>
+    </div>
+</div>
